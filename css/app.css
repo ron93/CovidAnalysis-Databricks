@@ -13,7 +13,9 @@ html, body {
     position: relative;
     height: 90%;
 }
-
+a{
+    color: #fff;
+}
 /*top*/
 
 header h1{
@@ -50,4 +52,5 @@ right: 0;
 }
 .contact h2{
 text-align: center;
+    font-size: 25px;
 }
