@@ -8,10 +8,23 @@ html, body {
     overflow-x: hidden;
 }
 
+.container{
+    margin-top: 5%;
+    position: relative;
+    height: 90%;
+}
+
+/*top*/
+
 header h1{
     text-align: center;
 }
 
+/*mid*/
+
+.mid{
+    margin-top: 5%;
+}
 
 .work h2 {
  float: left;
@@ -28,7 +41,13 @@ float: right;
     padding-left: 13%;
 }
 
-
+/*bottom*/
+.bottom{
+    position: absolute;
+bottom: 0;
+right: 0;
+    margin-right: 5%;
+}
 .contact h2{
 text-align: center;
 }
