@@ -9,14 +9,14 @@ html, body {
 }
 
 .work h2 {
-   height: 0%;
+ float: left;
     width: 60%;
     border: 1px solid #fff;
     padding: 2%;
     padding-left: 13%;
 }
 .about h2 {
-   height: 0%;
+float: right;
     width: 60%;
     border: 1px solid #fff;
     padding: 2%;
@@ -24,6 +24,6 @@ html, body {
 }
 
 
-.bottom{
-
+.contact h2{
+text-align: center;
 }
