@@ -16,7 +16,7 @@ body{
 
 /*title*/
 .row .one{
-    background:  grey;
+    
     height: 15em;
 }
 
@@ -27,12 +27,12 @@ body{
     height: 15em;
 }
   .two .home{
-    background: green;
+    
     width: 50%;
     height: 15em;
 }
  .two .about{
-    background: yellow;
+    
      height: 15em;
   width: 50%;
 }
@@ -44,7 +44,6 @@ body{
 
 
  .three .portfolio  {
-    background: yellow;
      height: 15em;
      width: 50%;
 
