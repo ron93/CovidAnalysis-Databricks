@@ -7,6 +7,26 @@ body{
     height: 50em;
     margin-top: 3em;
 }
+
+
+
+/*top social*/
+#top{
+/*    background: white;*/
+    height: 5em;
+
+    
+}
+
+.row .social i{
+   font-size: 3em; 
+    margin: 1em;
+    margin-top: 1rem;
+    margin-left: 2em;
+}
+
+
+
 /*======================================================NAVIGATION
 ========================================================*/
 .nav{
@@ -84,13 +104,72 @@ body{
     height: 60em;
     
 }
+
+
+/*===about===*/
+
 #about{
-    height: 60em;
+   
+  height: 60em;
+    width: 100%;
+
+    margin-bottom: 3px;
+    background-color: #fff;
+    text-align: center;
 }
+
+
+.story{
+    height: 30em;
+}
+/*
+.fami{
+    height: 30em;
+    
+}
+.fami img{
+
+
+    height: 2em;
+    width: 1em;
+
+    margin: 1em;
+}
+*/
+
+
+/*====portfolio===*/
 #portfolio{
 
     height: 60em;
 }
+
+
+#work{
+    
+   
+    background-color: #fff;
+}
+
+#work .one .columns , #work .two .columns{
+    height:15em;
+/*    background-color: #fff;*/
+   
+}
+/*
+.two .proj{
+    text-align: center;
+}
+*/
+.proj span{
+    display: none;
+}
+
+
+
+
+
+
 
 
 /*=====contact======*/
@@ -173,16 +252,4 @@ textarea {
 
 
 
-/*footer*/
-div{
-/*    background: white;*/
-    height: 5em;
-/*    margin-bottom:-2em;*/
-    
-}
-
-div .social i{
-   font-size: 3em; 
-    margin: 1em;
-    margin-left: 2em;
-}
+/
