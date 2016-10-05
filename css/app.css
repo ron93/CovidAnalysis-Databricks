@@ -4,53 +4,53 @@ body{
 }
 
 .container{
-    height: 45em;
+    height: 65em;
     margin-top: 5em;
 }
 /*navigation*/
 .nav{
-    height:40em;
+    height:60em;
 }
 
 
 /*title*/
 .row .one{
     background:  grey;
-    height: 20em;
+    height: 30em;
 }
 
 
 /*home & about*/
 .row .two{
    
-    height: 10em;
+    height: 15em;
 }
- #home{
+ .two .home{
     background: green;
     width: 50%;
-    height: 10em;
+    height: 15em;
 }
  #about{
     background: yellow;
-     height: 10em;
+     height: 15em;
      width: 50%;
 }
 
 /*portfolio & contact*/
 .row .three{
-    height: 10em;
+    height: 15em;
 }
 
 
  .three #portfolio  {
     background: yellow;
-     height: 10em;
+     height: 15em;
      width: 50%;
 
 }
 .three #contact{
     background: red;
-     height: 10em;
+     height: 15em;
      width: 50%;
     
 }
@@ -59,7 +59,7 @@ body{
 /*content*/
 
 .content{
-    height: 40em;
+    height: 60em;
     background: blue;
 }
 
@@ -72,4 +72,9 @@ footer{
     height: 5em;
     margin-top: -5em;
     
+}
+
+footer .social i{
+   font-size: 3em; 
+    margin: 1em;
 }
