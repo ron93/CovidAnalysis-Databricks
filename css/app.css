@@ -1,0 +1,64 @@
+
+body{
+    background: black;
+}
+
+.container{
+    height: 45em;
+    margin-top: 5em;
+}
+/*navigation*/
+.nav{
+    height:40em;
+}
+
+
+/*title*/
+.row .one{
+    background:  grey;
+    height: 20em;
+}
+
+
+/*home & about*/
+.row .two{
+   
+    height: 10em;
+}
+ #home{
+    background: green;
+    width: 50%;
+    height: 10em;
+}
+ #about{
+    background: yellow;
+     height: 10em;
+     width: 50%;
+}
+
+/*portfolio & contact*/
+.row .three{
+    height: 10em;
+}
+
+
+ .three #portfolio  {
+    background: yellow;
+     height: 10em;
+     width: 50%;
+
+}
+.three #contact{
+    background: red;
+     height: 10em;
+     width: 50%;
+    
+}
+
+
+/*content*/
+
+.content{
+    height: 40em;
+    background: blue;
+}
