@@ -60,9 +60,14 @@ body{
 
 .content{
     height: 60em;
+    
     background: blue;
 }
 
+#home{}
+#about{}
+#portfolio{}
+#contact{}
 
 
 
