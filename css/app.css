@@ -4,12 +4,12 @@ body{
 }
 
 .container{
-    height: 65em;
+    height: 50em;
     margin-top: 5em;
 }
 /*navigation*/
 .nav{
-    height:60em;
+    height:45em;
     text-align: center;
 }
 
@@ -17,7 +17,7 @@ body{
 /*title*/
 .row .one{
     background:  grey;
-    height: 30em;
+    height: 15em;
 }
 
 
@@ -66,27 +66,31 @@ body{
 
 
 .content{
-    height: 60em;
+    height: 45em;
     
     background: blue;
+    overflow-x: hidden;
+    overflow-y: hidden;
   
 }
-.content div{
-      display: none;
-}
+
 
 #home{
    background: white; 
+    height: 60em;
     
 }
 #about{
     background: yellow;
+    height: 60em;
 }
 #portfolio{
     background: green;
+    height: 60em;
 }
 #contact{
     background: brown;
+    height: 60em;
 }
 
 
