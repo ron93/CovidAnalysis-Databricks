@@ -10,6 +10,7 @@ body{
 /*navigation*/
 .nav{
     height:60em;
+    text-align: center;
 }
 
 
@@ -55,19 +56,40 @@ body{
     
 }
 
+.nav i{
+    font-size:10em;
+    margin-left: 1.5 rem;
+    
+}
 
 /*content*/
+
 
 .content{
     height: 60em;
     
     background: blue;
+  
+}
+.content div{
+      display: none;
 }
 
-#home{}
-#about{}
-#portfolio{}
-#contact{}
+#home{
+   background: white; 
+    
+}
+#about{
+    background: yellow;
+}
+#portfolio{
+    background: green;
+}
+#contact{
+    background: brown;
+}
+
+
 
 
 
