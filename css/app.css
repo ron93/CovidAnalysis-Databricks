@@ -25,15 +25,15 @@ body{
    
     height: 15em;
 }
- .two .home{
+  .two .home{
     background: green;
     width: 50%;
     height: 15em;
 }
- #about{
+ .two .about{
     background: yellow;
      height: 15em;
-     width: 50%;
+  width: 50%;
 }
 
 /*portfolio & contact*/
@@ -42,13 +42,13 @@ body{
 }
 
 
- .three #portfolio  {
+ .three .portfolio  {
     background: yellow;
      height: 15em;
      width: 50%;
 
 }
-.three #contact{
+.three .contact{
     background: red;
      height: 15em;
      width: 50%;
@@ -77,4 +77,5 @@ footer{
 footer .social i{
    font-size: 3em; 
     margin: 1em;
+    margin-left: 2em;
 }
