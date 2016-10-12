@@ -1,254 +1,105 @@
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    	<script src="http://code.jquery.com/jquery-latest.js"></script>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sliding Header Grid Layout</title>
+		<meta name="description" content="A simple grid layout with an initial fullscreen intro" />
+		<meta name="keywords" content="fullscreen image, grid layout, flexbox grid, transition" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		
+		<link rel="stylesheet" type="text/css" href="css/slide.css" />
+		
+	</head>
+	<body>
+		<div id="container" class="container">
+		
+			<header class="intro">
+				<img class="header_image" src="g/tech-wallpaper.html"/>
+				
+				
+<!--				title div-->
+				<div class="title">
+					<h1 class="intro__title">Ron Yagan</h1>
 
-    <title></title>
-<!--font-awesome    -->
-    <script src="https://use.fontawesome.com/4ec637cffa.js"></script>
-
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-            <link rel="stylesheet" href="css/capt.css">    
-
-  </head>
-  <body>
-<!--  social-->
-  <div id="top" class="row">
-        <div class="medium-6 columns">
+						
+						
+<!--	button -->
+						<button class="trigger">
+							<svg width="100%" height="100%" viewBox="0 0 60 60" preserveAspectRatio="none">
+								<g class="icon icon--grid">
+									<rect x="32.5" y="5.5" width="22" height="22"/>
+									<rect x="4.5" y="5.5" width="22" height="22"/>
+									<rect x="32.5" y="33.5" width="22" height="22"/>
+									<rect x="4.5" y="33.5" width="22" height="22"/>
+								</g>
+								<g class="icon icon--cross">
+									<line x1="4.5" y1="55.5" x2="54.953" y2="5.046"/>
+									<line x1="54.953" y1="55.5" x2="4.5" y2="5.047"/>
+								</g>
+							</svg>
+							<span>View content</span>
+						</button>
+					</div>
+			</header><!-- /intro -->
+			
+			
+<!--  content-->
+        <div class="contact">
+            
             
         </div>
-         
-          <div class="medium-6 columns social">
-          <a href="https://twitter.com/Ron_Karee">
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-          </a>
-          
-          <a href="www.linkedin.com/in/ronald-yagan">
-           <i class="fa fa-linkedin" aria-hidden="true"></i>
-           </a>
-           
-           <a href="https://github.com/ron93">
-           <i class="fa fa-github" aria-hidden="true"></i>
-           </a>
-       </div>
-      </div> 
-      
-<!--      container-->
-  <div class="row container">
-  
-<!--  contents-->
-  <div class="medium-7 columns content">
-<!--    HOME-->
-     <div id="home">
-         <h2>HOME</h2>
-     </div>
-     
-<!--     ABOUT-->
-     <div  id="about" >
-         <h2>ABOUT</h2>
-     </div>
-     
-     
-     
-     
-<!--        PORTFOLIO-->
-        <div id="portfolio">
-        <h2>MY WORK</h2>
-         <!--     1st row-->
-       <div class="row one grid">
-<!--         proj 1-->
-          <div class="medium-5 columns proj">
-             <figure>
-						<img src="/img/save.jpeg" alt="img01">
-						<figcaption>
-							<h3>Save A Child Foundation</h3>
-							 <span>so much info </span>
-							<a href="https://ron93.github.io/save-a-child/">Take a look</a>
-						</figcaption>
-					</figure>
-             
-              
-          </div>
-          
-<!--          proj 2-->
-           <div class="medium-5 columns proj">
-                            <figure>
-						<img src="/img/waat.jpeg" alt="img01">
-						<figcaption>
-							<h3>Waat Photography</h3>
-							 <span>so much info </span>
-							<a href="http://waat.bitballoon.com/">Take a look</a>
-						</figcaption>
-					</figure>
-
-              
-          </div>
-           
-       </div>
-       
-       
-<!--    2nd row-->
-      <div class="row two grid">
-         
-<!--         proj 3-->
-          <div class="medium-12  columns proj ">
-              
-                            <figure>
-						<img src="/img/set.jpeg" alt="img01">
-						<figcaption>
-							<h3>Settelite Technologies</h3>
-							 <span>so much info </span>
-							<a href="https://ron93.github.io/settelite-tech/">Take a look</a>
-						</figcaption>
-					</figure>
-
-          </div>
-           
-           
-<!--           proj 4-->
-<!--
-             <div class="medium-5 columns proj">
-              
-                            <figure>
-						<img src="images/1.png" alt="img01">
-						<figcaption>
-							<h3>project 4</h3>
-							 <span>so much info </span>
-							<a>Take a look</a>
-						</figcaption>
-					</figure>
-
-          </div>
--->
-       </div>
-       
-       
-         
-         
-     </div>
-     
-<!--     CONTACT-->
-     <div id="contact">
-        <h2>CONTACT ME</h2>
         
-         <form id="contact-form" class="form" action="#" method="POST" role="form">
-<!--  name-->
-              <div class="form-group">
-                  <label class="form-label" for="name">Your Name</label>
-                  
-                  <input type="text" class="form-input" id="name" name="name" placeholder="Enter name" tabindex="1" required>
-              </div>  
-              
-<!--email  -->
-                                                                                                                     
-              <div class="form-group">
-                  <label class="form-label" for="email">Your Email</label>
-                  
-                  <input type="email" class="form-input" id="email" name="email" placeholder="Enter Email" tabindex="2" required>
-              </div> 
-              
-                                                                    
-
-             
-             
-<!--  message  -->
-              <div class="form-group">
-                  <label class="form-label" for="message">Message</label>
-                  
-                  <textarea rows="5" cols="50" name="message" class="form-input" id="message" placeholder="Type message..." tabindex="4" required></textarea>                                 
-              </div>
-              
-<!--  submit button-->
-              <div class="text-center">
-                  <button type="submit" class="btn btn-start-order">Send Message</button>
-              </div>
-          </form>
         
-         
-         
-     </div>
-     
-     
-     
-      
-  </div>
-  
-  
-  
-  
-
-<!--  NAVIGATION-->
- 
-  <div class="medium-5 columns nav">
-   
-<!--   nav row 1-->
-    <div class="row one">
-       <div class="title" >
-          <h1>RON<br>YAGAN</h1> 
-       </div>
-       
-    </div>
-    
-    
-<!--    nav row 2-->
-     <div class="row two">
-       
-<!--       home-->
-        <a href="#home"  class="columns home"> 
-          HOME<br>
-        <i class="fa fa-home" aria-hidden="true"></i>
-
-         </a>
-         
-<!--         about-->
-        <a href="#about" class="columns about" > 
-             ABOUT<br>
-         <i class="fa fa-user" aria-hidden="true"></i>
-
-         </a>
-         
-         
-     </div>
-     
-<!--  nav   row three-->
-      <div class="row three">
-<!--       portfolio-->
-         <a href="#portfolio"  class="columns portfolio">
-        MY WORK<br>
-        <i class="fa fa-briefcase" aria-hidden="true"></i>
- 
-      
-          </a>
         
-<!--         contact-->
-        <a href="#contact" class="columns contact"> 
-             CONTACT ME<br>
-             <i class="fa fa-envelope" aria-hidden="true"></i>
-
         
-             </a>
-          
-             </div>
-          
-  </div>
-     
-     
-      </div>
-     <!--      footer-->
+        
+        
+        
+        
+        
+        
+        </div>
       
-      
+        
+        
+		<script src="js/classie.js"></script>
+		<script>
+			(function() {
+				var container = document.getElementById( 'container' ),
+					trigger = container.querySelector( 'button.trigger' );
 
-      
+				function toggleContent() {
+					if( classie.has( container, 'container--open' ) ) {
+						classie.remove( container, 'container--open' );
+						classie.remove( trigger, 'trigger--active' );
+						window.addEventListener( 'scroll', noscroll );
+					}
+					else {
+						classie.add( container, 'container--open' );
+						classie.add( trigger, 'trigger--active' );
+						window.removeEventListener( 'scroll', noscroll );
+					}
+				}
 
-  
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+				function noscroll() {
+					window.scrollTo( 0, 0 );
+				}
+
+				// reset scrolling position
+				document.body.scrollTop = document.documentElement.scrollTop = 0;
+
+				// disable scrolling
+				window.addEventListener( 'scroll', noscroll );
+
+				trigger.addEventListener( 'click', toggleContent );
+
+				// For Demo purposes only (prevent jump on click)
+				[].slice.call( document.querySelectorAll('.items-wrap a') ).forEach( function(el) { el.onclick = function() { return false; } } );
+			})();
+		</script>
+	</body>
 </html>
