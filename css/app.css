@@ -1,0 +1,45 @@
+/**/
+body{
+}
+.container{
+    margin-top: 10vh;
+}
+
+
+
+/*mid*/
+.mid{
+        height: 70vh;
+}
+.blog{
+    background-color: yellow;
+    height: 35vh;
+    width: 50%;
+    
+}
+.portfolio{
+    background-color: deepskyblue;
+    height: 35vh;
+        width: 50%;
+}
+
+/*about*/
+.about{
+    height: 35vh;
+        background-color: brown;
+
+}
+
+/*side*/
+.side{
+    background-color: aqua;
+    height: 70vh;
+}
+
+/*footer*/
+
+.foot{
+    background-color: chartreuse;
+    height: 15vh;
+    
+}
