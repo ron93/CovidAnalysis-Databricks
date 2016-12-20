@@ -1,31 +1,61 @@
+/*NB://
+*.empty class  separates  content by  2vh
+
+
+*/
+
 /**/
 body{
 }
 .container{
     margin-top: 10vh;
 }
+/*--CONTENT--*/
+.main{
+   
+}
 
 
+/*MID*/
 
-/*mid*/
+
 .mid{
         height: 70vh;
 }
-.blog{
-    background-color: yellow;
-    height: 35vh;
-    width: 50%;
-    
-}
-.portfolio{
-    background-color: deepskyblue;
-    height: 35vh;
-        width: 50%;
+.empty{
+    height: 2vh;
 }
 
+
+/*top*/
+
+.top .blog{
+margin-right: 2%;
+}
+/*blog*/
+
+
+.blog{
+    background-color: yellow;
+    height: 34vh;
+    width: 49%;
+    
+}
+
+
+/*portfolio*/
+
+.portfolio{
+    background-color: deepskyblue;
+    height: 34vh;
+        width: 49%;
+}
+
+
 /*about*/
+
 .about{
-    height: 35vh;
+    height: 34vh;
         background-color: brown;
 
 }
