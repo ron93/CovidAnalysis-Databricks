@@ -40,19 +40,7 @@ i{
 
 /*zoom on hover*/
 
-.card:hover 
-{
-    box-shadow: 0px 0px 150px #000000;
-    z-index: 2;
-    -webkit-transition: all 500ms ease-in;
-    -webkit-transform: scale(1.1);
-    -ms-transition: all 500ms ease-in;
-    -ms-transform: scale(1.1);   
-    -moz-transition: all 500ms ease-in;
-    -moz-transform: scale(1.1);
-    transition: all 500ms ease-in;
-    transform: scale(1.1);
-}
+
 
 /*header*/
 .header{
@@ -76,42 +64,60 @@ i{
     height: 2vh;
 }
 
+/*.cards*/
 
-/*top*/
+.card:hover 
+{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 500ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 500ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 500ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 500ms ease-in;
+    transform: scale(1.1);
+}
+.card-1,.card-2,.card-3{
+   height: 34vh; 
+}
+.card-1, .card-2{
+    width: 48%;
+}
+/*top */
 
-.top .blog{
+.top .card-1{
 margin-right: 4%;
 }
 /*blog*/
 
 
-.blog{
+.card-1{
     background-color: yellow;
-    height: 34vh;
-    width: 48%;
+   
     
 }
 
 
 /*portfolio*/
 
-.portfolio{
+.card-2{
     background-color: deepskyblue;
-    height: 34vh;
-        width: 48%;
+    
 }
 
 
 /*about*/
 
-.about{
-    height: 34vh;
+.card-3{
+ 
         background-color: brown;
 
 }
 
-/*side*/
-.side{
+/*contact*/
+.card-4{
     background-color: aqua;
     height: 68.3vh;
 }
