@@ -9,8 +9,15 @@ i{
     font-size: 30px;
 }
 
+/*backgrounds*/
+.semi-dark{
+    background-color: #202020;
+}
 
+.dark{
+      background-color: #171717;
 
+}
 
 
 /*header*/
