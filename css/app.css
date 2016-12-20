@@ -1,15 +1,24 @@
 /*NB://
 *.empty class  separates  content by  2vh
-
+*icon color #f7ac54
 
 */
+/*gen styles*/
+i{
+    color: #f7ac54;
+    font-size: 30px;
+}
 
-/**/
-body{
+
+
+
+
+/*header*/
+.header{
+    height:  10vh;
 }
-.container{
-    margin-top: 10vh;
-}
+
+
 /*--CONTENT--*/
 .main{
    
