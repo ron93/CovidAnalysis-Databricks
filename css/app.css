@@ -72,6 +72,16 @@ i{
 .layer {
 	position: relative;
 	display: block;
+    box-shadow: 0px 15px 15px grey;
+    z-index: 2;
+    -webkit-transition: all 500ms ease-in;
+    -webkit-transform: scale(1.03);
+    -ms-transition: all 500ms ease-in;
+    -ms-transform: scale(1.03);   
+    -moz-transition: all 500ms ease-in;
+    -moz-transform: scale(1.03);
+    transition: all 500ms ease-in;
+    transform: scale(1.03);
 }
 
 .layer:not(:first-child) {
@@ -82,7 +92,7 @@ i{
 
 /*.cards*/
 
-.card:hover
+.card:hover 
 {
     box-shadow: 0px 10px 10px grey;
     z-index: 2;
